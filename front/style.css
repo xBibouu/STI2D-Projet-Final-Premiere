@@ -1,0 +1,118 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #1a1a1a;
+}
+
+div.contenu {
+    text-align: center;
+    margin: 30px;
+    margin-top: 100px;
+}
+
+h1 {
+    overflow: hidden;
+    text-decoration: none;
+    color: #0aff2b;
+    font-size: 30px;
+    white-space: nowrap;
+    letter-spacing: .20em;
+    animation: 
+    typing 2.5s steps(40, end),
+    blink-caret .55s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+
+button.btn {
+ background-color: #0aff2b;
+ border-radius: 10px;
+ border-color: #0e771c;
+ font-family: 'Courier New', Courier, monospace;
+ color: #1a1a1a;
+ font-size: 20px;
+ padding: 10px;
+}
+
+button.btn:hover {
+    background-color: #09680e;
+    text-decoration: none;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(20, 92, 42, 0.24),0 17px 50px 0 rgba(34, 161, 40, 0.19);
+    
+}
+
+a.titre {
+    text-decoration: none;
+    color: rgb(0, 141, 9);
+    text-align: center;
+    display: block;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #070707;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding-top: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #0aff2b;
+    font-size: 15px;
+} 
+
+a {
+    text-decoration: none;
+    color: #0aff2b;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background: #09680e;
+    cursor: pointer;
+    width: 30rem;
+    border-radius: 15px;
+  }
+
+  input[type="range"]::-moz-range-thumb {
+    border: none;
+    border-radius: 1;
+    background-color: #0aff2b;
+    height: 2rem;
+    width: .5rem;
+}
+
+.valeur {
+    text-decoration: none;
+    color: #0aff2b;
+    font-size: 2rem;
+}
+
+#dist {
+    padding: 5px;
+    background-color: #0aff2b;
+    border-radius: 10px;
+    border-color: #0aff2b;
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: center;
+    
+}
+
+#dist::placeholder {
+    opacity: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#dist:hover {
+    background-color: #09680e;
+}
