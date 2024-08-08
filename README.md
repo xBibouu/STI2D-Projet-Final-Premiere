@@ -16,7 +16,6 @@ Nous allons maintenant vous expliquer les choix que nous avons dû faire pour me
 - Ensuite, nous avons décidé d'utiliser un servo-moteur afin d'ouvrir et de refermer la trappe afin de lâcher la bille.
 - Toute la machine sera construite sur le logiciel SolidWorks.
 
-[image conception]
 
 # Partie 2 : Codage du projet
 
